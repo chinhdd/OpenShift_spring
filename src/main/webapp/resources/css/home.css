@@ -1,0 +1,115 @@
+.flot-chart {
+	display: block;
+	height: 500x;
+	font: 10px sans-serif;
+}
+.flot-chart-wave {
+	display: block;
+	height: 350px;
+	font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+path.candle {
+	stroke: #000000;
+}
+
+path.candle.body {
+	stroke-width: 0;
+}
+
+path.candle.up {
+	fill: #00AA00;
+	stroke: #00AA00;
+}
+
+path.candle.down {
+	fill: #FF0000;
+	stroke: #FF0000;
+}
+
+rect.pane {
+	cursor: move;
+	fill: none;
+	pointer-events: all;
+}
+.y.annotation.left path {
+    fill: #00AA00;
+}
+.y.annotation.right path {
+	fill: #FF0000;
+}
+
+.x.annotation path {
+	fill: #DDD80E;
+}
+
+.crosshair {
+	cursor: crosshair;
+}
+
+.crosshair path.wire {
+	stroke: #DDDDDD;
+	stroke-dasharray: 1, 1;
+}
+
+.crosshair .axisannotation path {
+	fill: #DDDDDD;
+}
+
+path.tradearrow {
+	stroke: none;
+}
+
+path.tradearrow.buy {
+	fill: #0000FF;
+}
+
+path.tradearrow.buy-pending {
+	fill-opacity: 0.2;
+	stroke: #0000FF;
+	stroke-width: 1.5;
+}
+
+path.tradearrow.sell {
+	fill: #9900FF;
+}
+
+path.tradearrow.buyTrend {
+	fill: #0000FF;
+}
+
+path.tradearrow.sellTrend {
+	fill: #0000FF;
+}
+
+path.tradearrow.buyActual {
+	fill: #FF0000;
+}
+
+path.tradearrow.sellActual {
+	fill: #FF0000;
+}
+
+.tradearrow path.highlight {
+	fill: none;
+	stroke-width: 2;
+}
+
+.tradearrow path.highlight.buy,.tradearrow path.highlight.buy-pending {
+	stroke: #0000FF;
+}
+
+.tradearrow path.highlight.buy-pending {
+	fill: #0000FF;
+	fill-opacity: 0.3;
+}
+
+.tradearrow path.highlight.sell {
+	stroke: #9900FF;
+}
